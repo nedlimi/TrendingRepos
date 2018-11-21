@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:divider="#000"
+    >
+    <TextView
+        android:id="@+id/rv_repo_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:id="@+id/rv_repo_descr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="8dp"
+        />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/rv_owner_avatar"
+        android:src="@drawable/ic_image_black_24dp"/>
+
+    <TextView
+        android:id="@+id/rv_repo_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        />
+
+
+    <TextView
+        android:id="@+id/rv_repo_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="15sp"
+        android:padding="24dp"
+        android:drawableLeft="@drawable/ic_star_black_24dp"
+
+        />
+
+    </LinearLayout>
+</LinearLayout>
