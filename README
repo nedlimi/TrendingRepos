@@ -1,4 +1,4 @@
-TrendingRepo is small Android app written in java, that lists the most starred Github repos that were created in the last 30 days.
+TrendingRepos is small Android app written in java, that lists the most starred Github repos that were created in the last 30 days.
 
 Prerequisites:
 Android Studio.
